@@ -1,0 +1,200 @@
+
+
+.titre{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35pt;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texte{
+    font-family: 'Lato', sans-serif;
+}
+
+&
+/** Container **/
+
+#container{
+    width: 30%;
+    height: 100vh;
+    margin: auto;
+}
+
+/** Form **/
+
+form{
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.marque{
+
+}
+
+.input_write{
+    margin-bottom: 5vh;
+    height: 40px;
+    width: 80%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s all ease;
+}
+
+.input_write:focus{
+    transform: scale(1.05);
+    outline: none;
+}
+
+.input_clic{
+    margin-top: 5vh;
+    height: 40px;
+    width: 70%;
+    background-color: #989898;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+.input_clic:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.change{
+    margin-top: 2vh;
+    font-size: 10pt;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    transition: 0.2s all ease;
+}
+
+.change:hover{
+    text-decoration: underline;
+}
+
+#file_img{
+    display: none;
+}
+
+.input_image{
+    margin-bottom: 5vh;
+    height: 40px;
+    width: 70%;
+    background-color: #989898;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.input_image:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+/*** acceuil ***/
+
+#image{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#logout{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: black;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#logout a{
+    color: white;
+    font-size: 8pt;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    text-decoration: none;
+}
+
+
+#bulle{
+  position: absolute;
+  position: relative;
+  top: 35%;
+  left: 30px;
+  transform: translate(0, -35%);
+  position: absolute relative;
+  width: 400px;
+  height: 300px;
+  background-image: url("../pics/bulle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#bulle a{
+  color: white;
+  font-size: 8pt;
+  color: white;
+  font-family: 'Lato' , sans-serif;
+  text-decoration: none;
+
+}
+
+#text{
+    width: 310px;
+    height: 60px;
+    position: absolute;
+    top: 38%;
+    right: 10%;
+    transform: translate(0,-38%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#text span{
+    font-size: 16pt;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
